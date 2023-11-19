@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://previews.123rf.com/images/mikailain/mikailain1611/mikailain161100141/67810021-city-park-scenes-game-background-suitable-for-side-scrolling-action-and-adventure-game.jpg');
+}
+
+#gameOverScreen {
+    display: none;
+}
+
+#fightingSpace {
+    display: flex;
+    flex-direction: row;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.healthSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inactive {
+    background-color: grey;
+}
+
+.active {
+    background-color: red;
+}
+
+.idle {
+    height: 350px;
+    width: 350px;
+    background-color: none;
+}
+
+.attack {
+    height: 350px;
+    width: 360px;
+    background: linear-gradient(-90deg, rgba(0,255,0, 0.7), rgba(255,0,0,0) 90.71%); border-top-right-radius: 80%; border-bottom-right-radius: 80%";
+}
+
+.damage {
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(-90deg, rgba(255,0,0,0), rgba(255,0,0,.3) 70.71%);
+}
+
+#playerOneHealth,
+#playerTwoHealth {
+    color: green;
+}
+
+.playerSpace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    height: 75px;
+    width: 125px;
+    background-color: red;
+    border: solid 5px grey;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title, #playerName, #turn, #winningPlayer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
