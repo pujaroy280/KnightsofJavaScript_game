@@ -11,6 +11,10 @@ the user plays the game. You will be using HTML, CSS, and JavaScript for this to
 error-free, and an engaging experience for users.
 
 # UI
+Beginning of the Game:
 ![image](https://github.com/pujaroy280/KnightsofJavaScript_game/assets/62675121/84799e53-be3a-4eb3-b43c-b069a8f04dc6)
+
+End of the Game:
+![image](https://github.com/pujaroy280/KnightsofJavaScript_game/assets/62675121/fc6ce86a-94d1-4909-b7ce-a22dec7d2b25)
 
 
